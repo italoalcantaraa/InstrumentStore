@@ -19,9 +19,6 @@
 			<p>Pedido</p>
 			<p>Status</p>
 			<p>Enviar para</p>
-			<p>Enviar para</p>
-			<p>Enviar para</p>
-			<p>Enviar para</p>
 			<p>Total</p>
 		</div>
 	</div>
