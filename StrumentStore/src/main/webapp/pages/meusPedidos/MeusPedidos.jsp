@@ -18,6 +18,7 @@
 		<div class="titulos_pedidos">
 			<p>Pedido</p>
 			<p>Status</p>
+			<p>Status</p>
 			<p>Enviar para</p>
 			<p>Total</p>
 		</div>
