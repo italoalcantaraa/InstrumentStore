@@ -1,12 +1,14 @@
 package br.com.teste;
 
 public class Pedidos {
+	private int cdg;
 	private String img;
 	private String status;
 	private String destinatario;
 	private double total;
 	
-	public Pedidos(String img, String status, String destinatario, double total) {
+	public Pedidos(int cdg, String img, String status, String destinatario, double total) {
+		this.cdg = cdg;
 		this.img = img;
 		this.status = status;
 		this.destinatario = destinatario;
@@ -17,7 +19,13 @@ public class Pedidos {
 		
 	}
 
+	public int getCdg() {
+		return cdg;
+	}
 	
+	public void setCdg(int cdg) {
+		this.cdg = cdg;
+	}
 	
 	public String getImg() {
 		return img;
