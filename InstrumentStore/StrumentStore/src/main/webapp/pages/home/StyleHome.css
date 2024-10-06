@@ -21,11 +21,13 @@ body > h1{
 }
 
 .produtos{
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	max-width: 1200px;
+	grid-template-columns: repeat(4, 1fr);
 	width: 90%;
 	padding: 20px;
 	gap: 80px;
+	margin: 0 auto;
 }
 
 .produtos .produto{
