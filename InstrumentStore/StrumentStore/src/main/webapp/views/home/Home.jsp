@@ -10,6 +10,8 @@
 <link rel="stylesheet" type="text/css" href="StyleHome.css">
 </head>
 <body>
+	
+	<jsp:include page="../../includes/Header.jsp"/>
 	<h1>Home</h1>
 	
 	<div class="produtos">
