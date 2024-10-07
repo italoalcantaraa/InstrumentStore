@@ -4,6 +4,12 @@
     margin: 0px;
 }
 
+
+@font-face {
+    font-family: 'font';
+    src: url("../fonts/Montserrat-Medim.ttf");
+}
+
 header {
     display: flex;
     flex-direction: row;
